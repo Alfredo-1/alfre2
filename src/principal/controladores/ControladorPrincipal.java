@@ -10,5 +10,7 @@ package principal.controladores;
  * @author ALFRED
  */
 public class ControladorPrincipal {
-    
+    public static void main(String[] args) {
+        
+    }
 }
