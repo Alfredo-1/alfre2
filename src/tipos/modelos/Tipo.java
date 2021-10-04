@@ -10,5 +10,21 @@ package tipos.modelos;
  * @author ALFRED
  */
 public class Tipo {
-    
+    private String nombre;
+
+    public Tipo(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String verNombre() {
+        return nombre;
+    }
+
+    public void asignarNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void mostrar(){
+        System.out.println("Nombre: "+ nombre);
+
+    }
 }

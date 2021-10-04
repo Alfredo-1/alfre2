@@ -10,5 +10,22 @@ package lugares.modelos;
  * @author ALFRED
  */
 public class Lugar {
+    private String nombre;
+
+    public Lugar(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String verNombre() {
+        return nombre;
+    }
+
+    public void asignarNombre(String nombre) {
+        this.nombre = nombre;
+    }
     
+    public void mostrar(){
+        System.out.println("Nombre: "+ nombre);
+
+    }
 }

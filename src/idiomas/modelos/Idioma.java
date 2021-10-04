@@ -10,5 +10,21 @@ package idiomas.modelos;
  * @author ALFRED
  */
 public class Idioma {
-    
+    private String nombre;
+
+    public Idioma(String Nombre) {
+        this.nombre = Nombre;
+    }
+
+    public String verNombre() {
+        return nombre;
+    }
+
+    public void asignarNombre(String Nombre) {
+        this.nombre = Nombre;
+    }
+    public void mostrar(){
+        System.out.println("Nombre: "+ nombre);
+
+    }
 }
