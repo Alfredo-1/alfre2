@@ -35,7 +35,7 @@ public class Grupo {
     }
     
     public void mostrar(){
-        System.out.println("\t\t Grupo");
+        
         System.out.println("Nombre: "+ nombre);
         System.out.println("Descripcion: "+ descripcion);
             }
