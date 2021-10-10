@@ -145,4 +145,5 @@ public class ControladorPrincipal {
         ventanaTipos.setVisible(true);
     }
     
+    
 }
