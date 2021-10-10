@@ -24,8 +24,12 @@ public class Lugar {
         this.nombre = nombre;
     }
     
-    public void mostrar(){
-        System.out.println("Nombre: "+ nombre);
-
+//    public void mostrar(){
+//        System.out.println("Nombre: "+ nombre);
+//
+//    }
+    
+    public String toString(){
+        return "Lugar: "+nombre;
     }
 }

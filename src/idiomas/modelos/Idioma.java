@@ -12,19 +12,24 @@ package idiomas.modelos;
 public class Idioma {
     private String nombre;
 
-    public Idioma(String Nombre) {
-        this.nombre = Nombre;
+    public Idioma(String nombre) {
+        this.nombre = nombre;
     }
 
     public String verNombre() {
         return nombre;
     }
 
-    public void asignarNombre(String Nombre) {
-        this.nombre = Nombre;
+    public void asignarNombre(String nombre) {
+        this.nombre = nombre;
     }
-    public void mostrar(){
-        System.out.println("Nombre: "+ nombre);
-
+//    public void mostrar(){
+//        System.out.println("Nombre: "+ nombre);
+//
+//    }
+    
+    
+    public String toString(){
+       return "Idioma: "+nombre;
     }
 }
