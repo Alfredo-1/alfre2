@@ -6,6 +6,8 @@
 package publicacion.modelos;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import palabrasclaves.modelos.PalabraClave;
 
 /**
  *
@@ -16,5 +18,6 @@ public class Publicacion {
     LocalDate fechaDePublicacion;
     String enlaces;
     String resumen;
+    ArrayList<PalabraClave> palabrasClaves;
     
 }

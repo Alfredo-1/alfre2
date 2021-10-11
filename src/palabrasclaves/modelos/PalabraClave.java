@@ -23,11 +23,6 @@ public class PalabraClave {
     public void asignarNombre(String nombre) {
         this.nombre = nombre;
     }
-//    public void mostrar(){
-//        System.out.println("Nombre: "+ nombre);
-//
-//    }
-    
     
     public String toString(){
        return "Palabra Clave: "+nombre;
