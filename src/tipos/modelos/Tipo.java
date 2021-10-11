@@ -29,7 +29,10 @@ public class Tipo {
 //    }
    
     
+//    public String toString(){
+//       return "Tipo: "+nombre;
+//    }
     public String toString(){
-       return "Tipo: "+nombre;
+       return nombre;
     }
 }

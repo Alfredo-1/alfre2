@@ -29,7 +29,10 @@ public class Lugar {
 //
 //    }
     
+//    public String toString(){
+//        return "Lugar: "+nombre;
+//    }
     public String toString(){
-        return "Lugar: "+nombre;
+        return nombre;
     }
 }

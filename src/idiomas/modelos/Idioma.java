@@ -29,7 +29,10 @@ public class Idioma {
 //    }
     
     
-    public String toString(){
-       return "Idioma: "+nombre;
+//    public String toString(){
+//       return "Idioma: "+nombre;
+//    }
+        public String toString(){
+       return nombre;
     }
 }

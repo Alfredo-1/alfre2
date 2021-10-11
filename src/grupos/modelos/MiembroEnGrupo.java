@@ -16,17 +16,9 @@ public class MiembroEnGrupo {
     private Rol rol;
     private Grupo grupo;
 
-    public MiembroEnGrupo(Profesor profesor, Rol rol, Grupo grupo) {
+    public MiembroEnGrupo(Profesor profesor, Grupo grupo, Rol rol) {
         this.profesor = profesor;
         this.rol = rol;
-        this.grupo = grupo;
-    }
-
-    public Grupo getGrupo() {
-        return grupo;
-    }
-
-    public void setGrupo(Grupo grupo) {
         this.grupo = grupo;
     }
 
@@ -45,6 +37,14 @@ public class MiembroEnGrupo {
     public void setRol(Rol rol) {
         this.rol = rol;
     }
-    
+
+    public Grupo getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(Grupo grupo) {
+        this.grupo = grupo;
+    }
+
     
 }
