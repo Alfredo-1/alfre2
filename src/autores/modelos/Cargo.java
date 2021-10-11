@@ -15,5 +15,4 @@ public enum Cargo {
     ADJUNTO,
     JTP,
     ADG; 
-    
 }

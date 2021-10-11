@@ -5,10 +5,16 @@
  */
 package publicacion.modelos;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author ALFRED
  */
 public class Publicacion {
+    String titulo;
+    LocalDate fechaDePublicacion;
+    String enlaces;
+    String resumen;
     
 }

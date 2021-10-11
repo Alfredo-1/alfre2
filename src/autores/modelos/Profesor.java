@@ -14,9 +14,9 @@ public class Profesor {
     private String apellido;
     private String nombre;
     private String clave;
-    private String cargo;
+    private Cargo cargo;
 
-    public Profesor(int dni, String apellido, String nombre, String clave, String cargo) {
+    public Profesor(int dni, String apellido, String nombre, String clave, Cargo cargo) {
         this.dni = dni;
         this.apellido = apellido;
         this.nombre = nombre;
@@ -31,10 +31,12 @@ public class Profesor {
         return dni;
     }
 
+    
     public void asignarDni(int dni) {
         this.dni = dni;
     }
 
+    
     public String verApellido() {
         return apellido;
     }
@@ -60,10 +62,10 @@ public class Profesor {
     }
 
     public String verCargo() {
-        return cargo;
+        return cargo.toString();
     }
 
-    public void asignarCargo(String cargo) {
+    public void asignarCargo(Cargo cargo) {
         this.cargo = cargo;
     }
     
