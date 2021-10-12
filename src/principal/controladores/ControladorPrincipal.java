@@ -9,6 +9,7 @@ import autores.modelos.Alumno;
 import autores.modelos.Cargo;
 import autores.modelos.Profesor;
 import autores.vistas.VentanaAMAlumno;
+import autores.vistas.VentanaAMProfesor;
 //import autores.vistas.VentanaAMProfesor;
 import grupos.modelos.Grupo;
 import grupos.modelos.MiembroEnGrupo;
@@ -191,38 +192,33 @@ public class ControladorPrincipal {
         }
         
         
+        VentanaAMAlumno ventanaAlumnos = new VentanaAMAlumno(null);//instancia la ventana alumnos
+        ventanaAlumnos.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaAlumnos.setVisible(true);//hace visible la ventana alumno
         
+        VentanaAMProfesor ventanaProfesor = new VentanaAMProfesor (null);//instancia la ventana profesor
+        ventanaProfesor.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaProfesor.setVisible(true);//muestra la ventana profesor
         
+        VentanaAMGrupo ventanaGrupos = new  VentanaAMGrupo(null);
+        ventanaGrupos.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaGrupos.setVisible(true);
         
+        VentanaAIdioma ventanaIdiomas = new VentanaAIdioma(null);
+        ventanaIdiomas.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaIdiomas.setVisible(true);
         
+        VentanaALugar ventanaLugar = new VentanaALugar(null);
+        ventanaLugar.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaLugar.setVisible(true);
         
+        VentanaAPalabraClave ventanaPalabrasClaves = new VentanaAPalabraClave(null);
+        ventanaPalabrasClaves.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaPalabrasClaves.setVisible(true);
         
-        
-        
-        
+        VentanaATipo ventanaTipos = new VentanaATipo(null);
+        ventanaTipos.setLocationRelativeTo(null);//centra la venatana antes de hacerla visible
+        ventanaTipos.setVisible(true);   
     }
-//    public static void main(String[] args) {
-//        VentanaAMAlumno ventanaAlumnos = new VentanaAMAlumno(null);//instancia la ventana alumnos
-//        ventanaAlumnos.setVisible(true);//hace visible la ventana alumno
-//        
-////        VentanaAMProfesor ventanaProfesor = new VentanaAMProfesor (null);//instancia la ventana profesor
-////        ventanaProfesor.setVisible(true);//muestra la ventana profesor
-//        
-//        VentanaAMGrupo ventanaGrupos = new  VentanaAMGrupo(null);
-//        ventanaGrupos.setVisible(true);
-//        
-//        VentanaAIdioma ventanaIdiomas = new VentanaAIdioma(null);
-//        ventanaIdiomas.setVisible(true);
-//        
-//        VentanaALugar ventanaLugar = new VentanaALugar(null);
-//        ventanaLugar.setVisible(true);
-//        
-//        VentanaAPalabraClave ventanaPalabrasClaves = new VentanaAPalabraClave(null);
-//        ventanaPalabrasClaves.setVisible(true);
-//        
-//        VentanaATipo ventanaTipos = new VentanaATipo(null);
-//        ventanaTipos.setVisible(true);
-//    }
-    
-    
+   
 }
