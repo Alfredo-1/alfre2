@@ -34,6 +34,7 @@ import tipos.vistas.VentanaATipo;
  * @author ALFRED
  */
 public class ControladorPrincipal {
+    
     public static void main(String[] args) {
         ArrayList<Grupo> Grupos = new ArrayList<Grupo>();
         ArrayList<Lugar> Lugares = new ArrayList<Lugar>();

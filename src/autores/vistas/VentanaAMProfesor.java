@@ -22,6 +22,9 @@ public class VentanaAMProfesor extends JDialog {
     public VentanaAMProfesor(Dialog ventanaPadre) {
         super(ventanaPadre, true);
         initComponents();
+        /*le asignamos un modelo al combobox(comboCargos) mediante el metodo
+        que se llama setModel, dntro de set model debo decirle quien es el modelo
+        en este caso ModeloComboCargos*/
         this.combosCargos.setModel(new ModeloComboCargos());
     }   
     /**
@@ -141,6 +144,10 @@ public class VentanaAMProfesor extends JDialog {
         String apellidos = this.txtApellidos.getText().trim();
         String nombres = this.txtNombres.getText().trim();
         String clave = new String(this.passClave.getPassword());
+        /*hay un metodo que permite ver el model(getModel()) y devuelve algo del
+        tipo comboBoxModel.
+        luego llamamos al metodo obtenerCargo, y lo escribimos de la siguiente manera
+        y lo guardo en una variable del tipo Cargo*/
         Cargo cargo = ((ModeloComboCargos)this.combosCargos.getModel()).obtenerCargo();
         Profesor profesor = new Profesor(dni, apellidos, nombres, clave, cargo);
         this.profesores.add(profesor);

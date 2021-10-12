@@ -13,12 +13,15 @@ import javax.swing.DefaultComboBoxModel;
  */
 public class ModeloComboCargos extends DefaultComboBoxModel{
     public ModeloComboCargos(){
-        //crea una variable cargo tipo Cargo y guarda las cosas que hay en Cargo.Values()
+        //crea una variable cargo tipo Cargo y guarda las ennumeraciones que hay en Cargo.Values()
         for(Cargo cargo: Cargo.values()){
             this.addElement(cargo);
         }
     }
     public Cargo obtenerCargo() {
+        /*el metodo getSelectedItem devuelve algo del tipo objet,
+        luego ponemor el return para que devuelva el item que esta seleccionado
+        y ponemos (cargo) para convertir el objet a tipo cargo*/
         return (Cargo)this.getSelectedItem();
     }
 }
